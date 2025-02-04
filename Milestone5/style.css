@@ -1,0 +1,85 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #a277a182;
+    }
+    
+    h1 {
+        text-align: center;
+        color: rgb(90, 27, 173);
+    }
+    
+    form {
+        max-width: 600px;
+        margin: auto;
+        background: color #899655;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(201, 20, 20, 0.652);
+        padding: 50px;
+    }
+    
+    fieldset {
+        border: 2px solid #885d5d;
+         border-radius: 8px;
+         box-shadow: 0 4px 8px rgba(189, 6, 6, 0.2);
+         padding: 20px;
+         background-color: rgb(189, 209, 122);
+    }
+    legend {
+        font-weight: bold;
+        text-align: left;
+        color: rgb(11, 9, 23);
+    }
+    label {
+        display: block;
+        margin-top: 10px;
+        color: rgb(29, 26, 26);
+    }
+    input,textarea {
+        width: calc(100% -1px);
+        padding: 8px;
+        margin-top: 4px;
+        border: 1px solid #0ac147;
+        box-sizing: border-box;
+    }
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(12, 179, 9);
+        color: rgb(28, 23, 23);
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    button:hover {
+        background-color: #20c028;
+    }
+    #resumeoutput {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid #b43b3bcd;
+        border-radius: 8px;
+        background-color: rgb(30, 5, 174);
+        box-shadow: 0 4px 8px rgba(223, 23, 23, 0.5);
+    }
+    
+    
+    #resumeOutput h2 {
+        color: rgb(199, 23, 23);
+    }
+    .profilePicture {
+        display: block;
+        margin: auto;
+        border: 2px solid;
+        box-shadow: 0 4px 8px rgb(206, 8, 24);
+        border-radius: 500%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
